@@ -1,0 +1,10 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 1.13.1
+_src_path: gh:algorandfoundation/algokit-beaker-default-template
+author_email: anamarija.djuric2@gmail.com
+author_name: AnaMarijaDjuric
+contract_name: unichain_sc
+deployment_language: python
+preset_name: starter
+project_name: UniChain-contracts
+
