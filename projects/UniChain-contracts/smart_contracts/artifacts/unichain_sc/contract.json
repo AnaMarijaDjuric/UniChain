@@ -1,0 +1,45 @@
+{
+    "name": "unichain_sc",
+    "methods": [
+        {
+            "name": "student_login_and_ordering",
+            "args": [
+                {
+                    "type": "string",
+                    "name": "mail"
+                },
+                {
+                    "type": "string",
+                    "name": "password"
+                },
+                {
+                    "type": "string",
+                    "name": "book"
+                }
+            ],
+            "returns": {
+                "type": "void"
+            }
+        },
+        {
+            "name": "workers_acceptance",
+            "args": [],
+            "returns": {
+                "type": "void"
+            }
+        },
+        {
+            "name": "resolving_order",
+            "args": [
+                {
+                    "type": "pay",
+                    "name": "payment1"
+                }
+            ],
+            "returns": {
+                "type": "void"
+            }
+        }
+    ],
+    "networks": {}
+}

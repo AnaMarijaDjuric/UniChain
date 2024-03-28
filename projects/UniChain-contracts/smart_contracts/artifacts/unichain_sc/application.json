@@ -1,0 +1,124 @@
+{
+    "hints": {
+        "student_login_and_ordering(string,string,string)void": {
+            "call_config": {
+                "no_op": "CALL"
+            }
+        },
+        "workers_acceptance()void": {
+            "call_config": {
+                "no_op": "CALL"
+            }
+        },
+        "resolving_order(pay)void": {
+            "call_config": {
+                "no_op": "CALL"
+            }
+        }
+    },
+    "source": {
+        "approval": "I3ByYWdtYSB2ZXJzaW9uIDgKaW50Y2Jsb2NrIDAgMQpieXRlY2Jsb2NrIDB4NjM2ODZmNzM2NTZlNDI2ZjZmNmIgMHg2ZDYxNjk2YyAweDZjNjk2MjcyNjE3Mjc5IDB4NGU2ZjIwNjM2ODZmNzM2NTZlMjA2MjZmNmY2YiAweDY2NjU2NSAweDRlNmYyMDY5NmU2NjZmIDB4NzM3NDc1NjQ2NTZlNzQgMHg2ODYxNzM2ODVmNzA2MTczNzMgMHg0ZTZmMjA2ZjcwNzQ2NTY0Njk2ZTIwNzc2ZjcyNmI2NTcyIDB4NGU2ZjIwNmY3MDc0NjU2NDY5NmUyMDczNzQ3NTY0NjU2ZTc0IDB4NGU2ZjIwNjg2MTczNjgyMDcwNjE3MzczNzc2ZjcyNjQKdHhuIE51bUFwcEFyZ3MKaW50Y18wIC8vIDAKPT0KYm56IG1haW5fbDgKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMApwdXNoYnl0ZXMgMHg0YjliOWIzZiAvLyAic3R1ZGVudF9sb2dpbl9hbmRfb3JkZXJpbmcoc3RyaW5nLHN0cmluZyxzdHJpbmcpdm9pZCIKPT0KYm56IG1haW5fbDcKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMApwdXNoYnl0ZXMgMHhiZjk5ZTkwOSAvLyAid29ya2Vyc19hY2NlcHRhbmNlKCl2b2lkIgo9PQpibnogbWFpbl9sNgp0eG5hIEFwcGxpY2F0aW9uQXJncyAwCnB1c2hieXRlcyAweDdlMjM1ZjQxIC8vICJyZXNvbHZpbmdfb3JkZXIocGF5KXZvaWQiCj09CmJueiBtYWluX2w1CmVycgptYWluX2w1Ogp0eG4gT25Db21wbGV0aW9uCmludGNfMCAvLyBOb09wCj09CnR4biBBcHBsaWNhdGlvbklECmludGNfMCAvLyAwCiE9CiYmCmFzc2VydApjYWxsc3ViIHJlc29sdmluZ29yZGVyY2FzdGVyXzgKaW50Y18xIC8vIDEKcmV0dXJuCm1haW5fbDY6CnR4biBPbkNvbXBsZXRpb24KaW50Y18wIC8vIE5vT3AKPT0KdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKIT0KJiYKYXNzZXJ0CmNhbGxzdWIgd29ya2Vyc2FjY2VwdGFuY2VjYXN0ZXJfNwppbnRjXzEgLy8gMQpyZXR1cm4KbWFpbl9sNzoKdHhuIE9uQ29tcGxldGlvbgppbnRjXzAgLy8gTm9PcAo9PQp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQomJgphc3NlcnQKY2FsbHN1YiBzdHVkZW50bG9naW5hbmRvcmRlcmluZ2Nhc3Rlcl82CmludGNfMSAvLyAxCnJldHVybgptYWluX2w4Ogp0eG4gT25Db21wbGV0aW9uCmludGNfMCAvLyBOb09wCj09CmJueiBtYWluX2wxMgp0eG4gT25Db21wbGV0aW9uCmludGNfMSAvLyBPcHRJbgo9PQpibnogbWFpbl9sMTEKZXJyCm1haW5fbDExOgp0eG4gQXBwbGljYXRpb25JRAppbnRjXzAgLy8gMAohPQphc3NlcnQKY2FsbHN1YiBvcHRpbl8xCmludGNfMSAvLyAxCnJldHVybgptYWluX2wxMjoKdHhuIEFwcGxpY2F0aW9uSUQKaW50Y18wIC8vIDAKPT0KYXNzZXJ0CmNhbGxzdWIgY3JlYXRlXzAKaW50Y18xIC8vIDEKcmV0dXJuCgovLyBjcmVhdGUKY3JlYXRlXzA6CnByb3RvIDAgMApieXRlY18wIC8vICJjaG9zZW5Cb29rIgpieXRlY18zIC8vICJObyBjaG9zZW4gYm9vayIKYXBwX2dsb2JhbF9wdXQKYnl0ZWMgNCAvLyAiZmVlIgppbnRjXzAgLy8gMAphcHBfZ2xvYmFsX3B1dApieXRlY18yIC8vICJsaWJyYXJ5IgpieXRlYyA4IC8vICJObyBvcHRlZGluIHdvcmtlciIKYXBwX2dsb2JhbF9wdXQKYnl0ZWNfMSAvLyAibWFpbCIKYnl0ZWMgNSAvLyAiTm8gaW5mbyIKYXBwX2dsb2JhbF9wdXQKYnl0ZWMgNiAvLyAic3R1ZGVudCIKYnl0ZWMgOSAvLyAiTm8gb3B0ZWRpbiBzdHVkZW50IgphcHBfZ2xvYmFsX3B1dApyZXRzdWIKCi8vIG9wdF9pbgpvcHRpbl8xOgpwcm90byAwIDAKYnl0ZWMgNiAvLyAic3R1ZGVudCIKYXBwX2dsb2JhbF9nZXQKYnl0ZWMgOSAvLyAiTm8gb3B0ZWRpbiBzdHVkZW50Igo9PQpibnogb3B0aW5fMV9sNApieXRlY18yIC8vICJsaWJyYXJ5IgphcHBfZ2xvYmFsX2dldApieXRlYyA4IC8vICJObyBvcHRlZGluIHdvcmtlciIKPT0KYm56IG9wdGluXzFfbDMKaW50Y18wIC8vIDAKcmV0dXJuCm9wdGluXzFfbDM6CmJ5dGVjXzIgLy8gImxpYnJhcnkiCnR4biBTZW5kZXIKYXBwX2dsb2JhbF9wdXQKYiBvcHRpbl8xX2w1Cm9wdGluXzFfbDQ6CmJ5dGVjIDYgLy8gInN0dWRlbnQiCnR4biBTZW5kZXIKYXBwX2dsb2JhbF9wdXQKb3B0aW5fMV9sNToKdHhuIFNlbmRlcgpieXRlYyA3IC8vICJoYXNoX3Bhc3MiCmJ5dGVjIDEwIC8vICJObyBoYXNoIHBhc3N3b3JkIgphcHBfbG9jYWxfcHV0CnJldHN1YgoKLy8gc3R1ZGVudF9sb2dpbl9hbmRfb3JkZXJpbmcKc3R1ZGVudGxvZ2luYW5kb3JkZXJpbmdfMjoKcHJvdG8gMyAwCnR4biBTZW5kZXIKZ2xvYmFsIEN1cnJlbnRBcHBsaWNhdGlvbklECmFwcF9vcHRlZF9pbgovLyB1bmF1dGhvcml6ZWQKYXNzZXJ0CmJ5dGVjXzEgLy8gIm1haWwiCmFwcF9nbG9iYWxfZ2V0CmJ5dGVjIDUgLy8gIk5vIGluZm8iCj09CnR4biBTZW5kZXIKYnl0ZWMgNyAvLyAiaGFzaF9wYXNzIgphcHBfbG9jYWxfZ2V0CmJ5dGVjIDEwIC8vICJObyBoYXNoIHBhc3N3b3JkIgo9PQomJgpieXRlY18wIC8vICJjaG9zZW5Cb29rIgphcHBfZ2xvYmFsX2dldApieXRlY18zIC8vICJObyBjaG9zZW4gYm9vayIKPT0KJiYKYXNzZXJ0CmJ5dGVjXzEgLy8gIm1haWwiCmZyYW1lX2RpZyAtMwpleHRyYWN0IDIgMAphcHBfZ2xvYmFsX3B1dAp0eG4gU2VuZGVyCmJ5dGVjIDcgLy8gImhhc2hfcGFzcyIKZnJhbWVfZGlnIC0yCmV4dHJhY3QgMiAwCnNoYTI1NgphcHBfbG9jYWxfcHV0CmJ5dGVjXzAgLy8gImNob3NlbkJvb2siCmZyYW1lX2RpZyAtMQpleHRyYWN0IDIgMAphcHBfZ2xvYmFsX3B1dApyZXRzdWIKCi8vIHdvcmtlcnNfYWNjZXB0YW5jZQp3b3JrZXJzYWNjZXB0YW5jZV8zOgpwcm90byAwIDAKdHhuIFNlbmRlcgpnbG9iYWwgQ3VycmVudEFwcGxpY2F0aW9uSUQKYXBwX29wdGVkX2luCi8vIHVuYXV0aG9yaXplZAphc3NlcnQKYnl0ZWNfMCAvLyAiY2hvc2VuQm9vayIKYXBwX2dsb2JhbF9nZXQKYnl0ZWNfMyAvLyAiTm8gY2hvc2VuIGJvb2siCiE9CmJ5dGVjXzEgLy8gIm1haWwiCmFwcF9nbG9iYWxfZ2V0CmJ5dGVjIDUgLy8gIk5vIGluZm8iCiE9CiYmCmFzc2VydApieXRlY18wIC8vICJjaG9zZW5Cb29rIgphcHBfZ2xvYmFsX2dldApzdG9yZSAwCmJ5dGVjXzEgLy8gIm1haWwiCmFwcF9nbG9iYWxfZ2V0CnN0b3JlIDEKcmV0c3ViCgovLyB0cmFuc2Zlcl9tb25leQp0cmFuc2Zlcm1vbmV5XzQ6CnByb3RvIDIgMAppdHhuX2JlZ2luCmludGNfMSAvLyBwYXkKaXR4bl9maWVsZCBUeXBlRW51bQpieXRlY18yIC8vICJsaWJyYXJ5IgphcHBfZ2xvYmFsX2dldAppdHhuX2ZpZWxkIFJlY2VpdmVyCmZyYW1lX2RpZyAtMgppdHhuX2ZpZWxkIEFtb3VudAppdHhuX3N1Ym1pdApyZXRzdWIKCi8vIHJlc29sdmluZ19vcmRlcgpyZXNvbHZpbmdvcmRlcl81Ogpwcm90byAxIDAKdHhuIFNlbmRlcgpnbG9iYWwgQ3VycmVudEFwcGxpY2F0aW9uSUQKYXBwX29wdGVkX2luCi8vIHVuYXV0aG9yaXplZAphc3NlcnQKaW50Y18xIC8vIHBheQppbnRjXzEgLy8gcGF5Cj09CmZyYW1lX2RpZyAtMQpndHhucyBSZWNlaXZlcgpnbG9iYWwgQ3VycmVudEFwcGxpY2F0aW9uQWRkcmVzcwo9PQomJgphc3NlcnQKYnl0ZWMgNCAvLyAiZmVlIgpmcmFtZV9kaWcgLTEKZ3R4bnMgQW1vdW50CmFwcF9nbG9iYWxfcHV0CmJ5dGVjIDQgLy8gImZlZSIKYXBwX2dsb2JhbF9nZXQKaW50Y18wIC8vIDAKY2FsbHN1YiB0cmFuc2Zlcm1vbmV5XzQKcmV0c3ViCgovLyBzdHVkZW50X2xvZ2luX2FuZF9vcmRlcmluZ19jYXN0ZXIKc3R1ZGVudGxvZ2luYW5kb3JkZXJpbmdjYXN0ZXJfNjoKcHJvdG8gMCAwCnB1c2hieXRlcyAweCAvLyAiIgpkdXBuIDIKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMQpmcmFtZV9idXJ5IDAKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMgpmcmFtZV9idXJ5IDEKdHhuYSBBcHBsaWNhdGlvbkFyZ3MgMwpmcmFtZV9idXJ5IDIKZnJhbWVfZGlnIDAKZnJhbWVfZGlnIDEKZnJhbWVfZGlnIDIKY2FsbHN1YiBzdHVkZW50bG9naW5hbmRvcmRlcmluZ18yCnJldHN1YgoKLy8gd29ya2Vyc19hY2NlcHRhbmNlX2Nhc3Rlcgp3b3JrZXJzYWNjZXB0YW5jZWNhc3Rlcl83Ogpwcm90byAwIDAKY2FsbHN1YiB3b3JrZXJzYWNjZXB0YW5jZV8zCnJldHN1YgoKLy8gcmVzb2x2aW5nX29yZGVyX2Nhc3RlcgpyZXNvbHZpbmdvcmRlcmNhc3Rlcl84Ogpwcm90byAwIDAKaW50Y18wIC8vIDAKdHhuIEdyb3VwSW5kZXgKaW50Y18xIC8vIDEKLQpmcmFtZV9idXJ5IDAKZnJhbWVfZGlnIDAKZ3R4bnMgVHlwZUVudW0KaW50Y18xIC8vIHBheQo9PQphc3NlcnQKZnJhbWVfZGlnIDAKY2FsbHN1YiByZXNvbHZpbmdvcmRlcl81CnJldHN1Yg==",
+        "clear": "I3ByYWdtYSB2ZXJzaW9uIDgKcHVzaGludCAwIC8vIDAKcmV0dXJu"
+    },
+    "state": {
+        "global": {
+            "num_byte_slices": 4,
+            "num_uints": 1
+        },
+        "local": {
+            "num_byte_slices": 1,
+            "num_uints": 0
+        }
+    },
+    "schema": {
+        "global": {
+            "declared": {
+                "chosenBook": {
+                    "type": "bytes",
+                    "key": "chosenBook",
+                    "descr": "Student's chosen book"
+                },
+                "fee": {
+                    "type": "uint64",
+                    "key": "fee",
+                    "descr": "Payment for books"
+                },
+                "library": {
+                    "type": "bytes",
+                    "key": "library",
+                    "descr": "Worker"
+                },
+                "mail": {
+                    "type": "bytes",
+                    "key": "mail",
+                    "descr": "Student's inf"
+                },
+                "student": {
+                    "type": "bytes",
+                    "key": "student",
+                    "descr": "Student"
+                }
+            },
+            "reserved": {}
+        },
+        "local": {
+            "declared": {
+                "hash_pass": {
+                    "type": "bytes",
+                    "key": "hash_pass",
+                    "descr": "Student's hashed password"
+                }
+            },
+            "reserved": {}
+        }
+    },
+    "contract": {
+        "name": "unichain_sc",
+        "methods": [
+            {
+                "name": "student_login_and_ordering",
+                "args": [
+                    {
+                        "type": "string",
+                        "name": "mail"
+                    },
+                    {
+                        "type": "string",
+                        "name": "password"
+                    },
+                    {
+                        "type": "string",
+                        "name": "book"
+                    }
+                ],
+                "returns": {
+                    "type": "void"
+                }
+            },
+            {
+                "name": "workers_acceptance",
+                "args": [],
+                "returns": {
+                    "type": "void"
+                }
+            },
+            {
+                "name": "resolving_order",
+                "args": [
+                    {
+                        "type": "pay",
+                        "name": "payment1"
+                    }
+                ],
+                "returns": {
+                    "type": "void"
+                }
+            }
+        ],
+        "networks": {}
+    },
+    "bare_call_config": {
+        "no_op": "CREATE",
+        "opt_in": "CALL"
+    }
+}
